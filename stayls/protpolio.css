@@ -15,6 +15,9 @@ body{
     color:#fff;
     padding:15px 35px;
 }
+.btn-primary:hover{
+    background-color:green;
+}
 .section-title{
     color: #181818;
     text-align: center;
@@ -78,6 +81,7 @@ nav a{
 }
 .banner .profile-pic{
     width:500px;
+    margin-top: 14px;
 }
 .banner-greeting{
     font-size:45px;
@@ -195,14 +199,16 @@ footer{
 .social-links a{
     margin-right: 25px;
 }
-
+.social-links img:hover{
+    background-color:black;
+}
 /* responsive styles mobile device*/
 .hide{
     display:none;
 }
 @media screen and (max-width:576px) {
     .header{
-        background-image: none;
+        background-position:;
     }
     .skills-contener,
      .resume-container,
@@ -219,6 +225,7 @@ footer{
     }
     #what-i-do-discription,.banner{
         padding:20px;
+        padding-bottom: 0;
     }
     footer,.about{
         padding: 10px;
